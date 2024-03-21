@@ -10,6 +10,7 @@ __pycache__/
 .Python
 build/
 assets\otp_secrets.json
+assets\__pycache__
 develop-eggs/
 dist/
 downloads/
