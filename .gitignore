@@ -9,6 +9,7 @@ __pycache__/
 # Distribution / packaging
 .Python
 build/
+assets\otp_secrets.json
 develop-eggs/
 dist/
 downloads/
