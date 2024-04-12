@@ -109,7 +109,7 @@ def main(page: ft.Page):
     page.theme_mode = page.theme_mode.LIGHT
     page.title = "OTP App"
     page.horizontal_alignment = 'CENTER'
-    text_field = ft.TextField(hint_text="Add otp", width=280, autofocus=True, border_radius=15)
+    text_field = ft.TextField(hint_text="Add otp", width=280, border_radius=15)
     floatbutton = ft.FloatingActionButton(icon=ft.icons.ADD, on_click=lambda e: add_otp(otp_uri=text_field.value))
     #top container text filed and button
     top_ct = ft.Container(
